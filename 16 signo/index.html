@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTA</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="../img/yo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            SIGNO ZODIACAL
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </div>
+                </div>
+        </div>
+    </nav>
+    <div class="container-fluid text-center">
+        <div class="card w-50 m-auto mt-4">
+            <h1>Dia: <input type="range" id="d" min="1" max="30" value="1"><span id="vd">1</span></h1>
+            <h1>Mes: 
+                <select name="" id="m">
+                <option value="Enero">Enero</option>
+                <option value="Febrero">Febrero</option>
+                <option value="Marzo">Marzo</option>
+                <option value="Abril">Abril</option>
+                <option value="Mayo">Mayo</option>
+                <option value="Junio">Junio</option>
+                <option value="Julio">Julio</option>
+                <option value="Agosto">Agosto</option>
+                <option value="Septiembre">Septiembre</option>
+                <option value="Octubre">Octubre</option>
+                <option value="Noviembre">Noviembre</option>
+                <option value="Diciembre">Diciembre</option>
+            </select> 
+        </h1>
+        </div>
+        <div class="card w-50 m-auto mt-4"><h1 id="fecha">FECHA</h1></div>
+        <div class="card w-50 m-auto mt-4"><h1 id="signo">SIGNO</h1></div>
+    </div>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
